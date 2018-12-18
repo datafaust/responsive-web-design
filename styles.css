@@ -198,6 +198,97 @@ body{
 
 /*Responsive Design*/
 
-@media (max-wit)
+@media (max-width: 1000px){
+  .main-header{
+    height: 300px;
+  }
+  .features {
+    display: grid;
+  }
+  .feature{
+    width: 100%;
+    display:flex;
+    margin: 0px auto;
+    height: 200px;
+  }
+  .feature:hover .icon{
+    background:none;
+    color: #E66586;
+  }
+
+  .icon{
+    font-size:100px;
+    border-radius: 0px;
+    height:200px;
+    width:50%;
+    color:#E66586;
+    text-align: center;
+  }
+  .feature-content{
+    width: 50%;
+    padding-right:5px;
+    box-sizing: border-box;
+  }
+
+  .wrapper{
+    width: 95%;
+  }
+}
+
+
+@media (max-width:900px){
+  #our-story{
+    height:auto;
+  }
+  .story-text, .story-img{
+    height:200px;
+  }
+  .box{
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    top:0px;
+    left:0px;
+    transform:none;
+    box-sizing: border-box;
+    background-image:  linear-gradient(to left, #EB7D70, #E66586);
+    color:#fff;
+  }
+
+
+@media (max-width:575px){
+  .features{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .feature{
+    display: block;
+    text-align:center;
+    height: auto;
+  }
+  .icon{
+    font-size: 50px;
+    height:auto;
+    margin: auto;
+  }
+  .feature-content{
+    width: 100%;
+    margin:0px auto;
+  }
+
+  .contact{
+    width: 200px;
+    margin: 0px auto;
+    padding: 10px 0px;
+  }
+  .wrapper{
+    width: 100%;
+    margin:0px 0px;
+  }
+}
+
+}
+
+
 
 /*on 46:47 of the video */
